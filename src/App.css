@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(90.83deg, #202028 0.57%, #1D0F68 99.24%, #1E1552 99.24%);
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* navbar css */
+nav{
+  margin: 3em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flx{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 20em;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.navs{
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
 }
+a{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #E5E5E5;
+text-decoration: none;
+}
+.logo{
+color: #E5E5E5;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 51px;
+}
+.btn1:hover{
+  background: linear-gradient(90deg, rgba(149, 129, 255, 0.25) 0%, rgba(61, 173, 255, 0.25) 100%);
+border-radius: 18px;
+}
+.btn1{
+padding: 12px 24px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.btn2{
+ 
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+gap: 10px;
+border: none;
+
+}
+.btn2:hover{
+padding: 9px 21px;
+
+  border: 3px solid transparent;
+  border-radius: 50px;
+  border-image-source: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+  border-image-slice: 1;
+/* background-image: linear-gradient(90.83deg, #9581FF 100%, #3DADFF 99.24%); */
+box-sizing: border-box;
+z-index: 2;
+}
+.btn3{
+
+padding: 12px 24px;
+gap: 10px;
+}
+.btn3:hover{
+  background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+  /* Apna product */
+  
+  box-shadow: 0px 12px 35px rgba(63, 172, 255, 0.25);
+  border-radius: 18px;
+}
+/* hero section css */
+.herosec{
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+  margin: -2em 6em;
+}
+.h-content{
+  display:block;
+  line-height: em;
+}
+ span{
+
+
+/* tracker */
+
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.headline{
+  color: #E5E5E5;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70.5054px;
+  line-height: 85px;
+  margin-top: -1em;
+}
+.para{
+
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  color: #E5E5E5;
+  
+}
+.product-btn{
+  /* tracker */
+
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+/* Apna product */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 39px;
+gap: 21px;
+box-shadow: 0px 12px 35px rgba(63, 172, 255, 0.25);
+border-radius: 18px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+outline: none;
+border-color: transparent;
+color: #E5E5E5;
+
 }
