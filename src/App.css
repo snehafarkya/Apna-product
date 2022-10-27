@@ -1,4 +1,4 @@
-body{
+body,.tbody{
   background: linear-gradient(90.83deg, #202028 0.57%, #1D0F68 99.24%, #1E1552 99.24%);
   background-size: cover;
 }
@@ -89,7 +89,7 @@ gap: 10px;
   display:block;
   line-height: em;
 }
- span{
+ span, .subhead{
 
 
 /* tracker */
@@ -140,11 +140,195 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 43px;
-display: flex;
-align-items: center;
 letter-spacing: 0.2px;
 outline: none;
 border-color: transparent;
 color: #E5E5E5;
 
+}
+/* opensource page css */
+.osbody{
+  background-color:  #E5E5E5;
+  height: 100vh;
+}
+.head,.chead{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 68.8378px;
+text-align: center;
+padding-top: 1em;
+color: #333333;
+
+}
+.subhead{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+text-align: center;
+}
+.os-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8em;
+  font-weight: 800;
+font-size: 20px;
+line-height: 182.52%;
+/* or 44px */
+
+
+color: #333333;
+
+}
+/* team css */
+.thead{
+  font-style: normal;
+font-weight: 800;
+font-size: 70.5054px;
+line-height: 85px;
+text-align: center;
+
+color: #E5E5E5;
+
+}
+.t-text{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 182.52%;
+/* or 44px */
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 0 8em;
+
+
+color: #E5E5E5;
+}
+.team
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 70.5054px;
+line-height: 85px;
+
+/* tracker */
+margin-left: 2em;
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.teamtag{
+  font-weight: 800;
+font-size: 24px;
+line-height: 182.52%;
+/* or 44px */
+color: #E5E5E5;
+margin-left: 6em;
+
+}
+.t-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+}
+.sneha,.jas{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2em;
+  justify-content: center;
+  margin: 0 1em;
+}
+.simage,.simg,.jimg,.jimage{
+  background-color: #E5E5E5;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+
+}
+.sname,.jname{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+
+/* tracker */
+
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.sposition,.jposition{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 182.52%;
+/* or 44px */
+
+
+color: #E5E5E5;
+}
+.about-s,.about-j{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 182.52%;
+/* or 44px */
+
+
+color: #E5E5E5;
+}
+
+/* contact page css */
+.cbody{
+  background-color: #E5E5E5;
+  background-size: cover;
+}
+.chead{
+  background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.cpara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+font-size: 20px;
+margin: 0 4em;
+/* identical to box height, or 44px */
+
+
+color: #333333;
+
+
+}
+.contact-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+.cform{
+  background-color: #333333;
+  height: 400px;
+  width: 400px;
 }
