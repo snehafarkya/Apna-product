@@ -53,8 +53,6 @@ padding: 12px 24px;
 gap: 10px;
 border: none;
 
-}
-.btn2:hover{
 padding: 9px 21px;
 
   border: 3px solid transparent;
@@ -65,15 +63,15 @@ padding: 9px 21px;
 box-sizing: border-box;
 z-index: 2;
 }
-.btn3{
+.btn3,#l-sub{
 
 padding: 12px 24px;
 gap: 10px;
-}
-.btn3:hover{
+
   background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
   /* Apna product */
-  
+  border: transparent;
+  color: #E5E5E5;
   box-shadow: 0px 12px 35px rgba(63, 172, 255, 0.25);
   border-radius: 18px;
 }
@@ -214,11 +212,11 @@ color: #E5E5E5;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 70.5054px;
-line-height: 85px;
-
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
 /* tracker */
-margin-left: 2em;
 background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -231,7 +229,9 @@ font-size: 24px;
 line-height: 182.52%;
 /* or 44px */
 color: #E5E5E5;
-margin-left: 6em;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 .t-flex{
@@ -249,10 +249,9 @@ margin-left: 6em;
   margin: 0 1em;
 }
 .simage,.simg,.jimg,.jimage{
-  background-color: #E5E5E5;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 
 }
 .sname,.jname{
@@ -294,7 +293,10 @@ line-height: 182.52%;
 
 color: #E5E5E5;
 }
-
+.socials{
+  display: flex;
+  gap: 0.4em;
+}
 /* contact page css */
 .cbody{
   background-color: #E5E5E5;
@@ -327,8 +329,154 @@ color: #333333;
   align-items: center;
   gap: 4em;
 }
+
+/* contact form css */
 .cform{
-  background-color: #333333;
-  height: 400px;
-  width: 400px;
+  background: #F2EAF5;
+box-shadow: -14px 14px 28px rgba(203, 197, 206, 0.2), 14px -14px 28px rgba(203, 197, 206, 0.2), -14px -14px 28px rgba(255, 255, 255, 0.9), 14px 14px 35px rgba(203, 197, 206, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(203, 197, 206, 0.5);
+border-radius: 18px;
+width: 621px;
+height: 535px;
+display: flex;
+flex-direction: column;
+gap: 2em;
+justify-content: center;
+align-items: center;
+}
+.fhead{
+  font-weight: 800;
+font-size: 35px;
+/* or 69px */
+margin-bottom: 0;
+text-align: center;
+
+/* tracker */
+
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+#text,#email,#msg{
+  border-radius: 12px;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 11px 100px 11px 20px;
+gap: 10px;
+border-color: #3DADFF;
+font-weight: 400;
+font-size: 16px;
+}
+#sub{
+  background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+/* Apna product */
+
+box-shadow: 0px 12px 35px rgba(63, 172, 255, 0.25);
+border-radius: 18px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+gap: 10px;
+border-color: transparent;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+
+color: #E5E5E5;
+}
+/* login page css */
+
+.loginform{
+  background: #1F1B3D;
+  background-size: cover;
+box-shadow: -75px -75px 150px rgba(20, 18, 40, 0.2), 75px 75px 150px rgba(20, 18, 40, 0.2), -75px 75px 150px rgba(42, 36, 82, 0.9), 75px -75px 188px rgba(20, 18, 40, 0.9), inset 3px -3px 2px rgba(42, 36, 82, 0.3), inset -3px 3px 2px rgba(20, 18, 40, 0.5);
+border-radius: 36px;
+max-width: 597px;
+height: 576px;
+text-align: center;
+margin: auto;
+}
+.login-head{
+  font-weight: 800;
+font-size: 72px;
+line-height: 182.52%;
+/* or 131px */
+
+text-align: center;
+
+/* tracker */
+
+background: linear-gradient(90deg, #9581FF 0%, #3DADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+#l-text,#l-psaa{
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 182.52%;
+  /* or 40px */
+  margin-bottom: 2em;
+  
+background: #1F1B3D;
+box-shadow: -75px -75px 150px rgba(20, 18, 40, 0.2), 75px 75px 150px rgba(20, 18, 40, 0.2), -75px 75px 150px rgba(42, 36, 82, 0.9), 75px -75px 188px rgba(20, 18, 40, 0.9), inset 3px -3px 2px rgba(42, 36, 82, 0.3), inset -3px 3px 2px rgba(20, 18, 40, 0.5);
+border-radius: 18px;
+  border-color: #3DADFF;
+  color: rgba(229, 229, 229, 0.5);
+  padding: 5px 10px;
+  
+}
+#l-sub{
+  font-size: 20px;
+  font-weight: 600;
+}
+.sign{
+  color: #E5E5E5;
+  font-size: 14px;
+  font-weight: 600
+}
+/* Footer css */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 2em;
+}
+.apna,.products,.community,.support{
+  font-weight: 800;
+font-size: 24px;
+line-height: 182.52%;
+/* identical to box height, or 44px */
+text-align: center;
+
+color: #E5E5E5;
+}
+.apna,.community{
+  text-align: left;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+ 
+}
+li{
+  font-weight: 500;
+font-size: 20px;
+line-height: 182.52%;
+/* identical to box height, or 37px */
+text-align: left;
+color: #E5E5E5;
+
+}
+.btn3,.btn2{
+  margin-bottom: 0.5em;
+  font-weight: 800;
+font-size: 20px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Contactimg from '../assets/Contactimg.png'
+import Form from './Form'
 export default function Contact() {
   return (
     <div className='cbody'>
@@ -10,7 +11,7 @@ export default function Contact() {
             <img src={Contactimg} alt="" />
           </div>
           <div className="cform">
-
+              <Form />
           </div>
       </div>    
     </div>

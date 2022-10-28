@@ -4,12 +4,14 @@ import Ig from './Ig.png'
 import Ln from './Linkedin.png'
 import Twitter from './Twitter.png'
 import Email from './Email.png'
+import Jass from './Jaspreet.png'
+
 export default function Jas() {
   return (
     <div>
       <div className="jas">
           <div className="jimg">
-          <img src="" alt="" className="jimage" />
+          <img src={Jass} alt="" className="jimage" />
           </div>
           <div className="jcontent">
             <div className="jname">Jaspreet Singh Saini</div>

@@ -4,13 +4,15 @@ import Ig from './Ig.png'
 import Ln from './Linkedin.png'
 import Twitter from './Twitter.png'
 import Email from './Email.png'
+import Snehaf from './Snehaf.png'
+
 
 export default function Sneha() {
   return (
     <div>
        <div className="sneha">
           <div className="simg">
-            <img src="" alt="" className="simage" />
+            <img src={Snehaf} alt="" className="simage" />
           </div>
           <div className="scontent">
             <div className="sname">Sneha Farkya</div>

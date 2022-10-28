@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
@@ -12,9 +12,9 @@ export default function Navbar() {
       <a href="http://">Products</a>
       <a href="http://">Open Source</a>
       <a href="http://">Sponsor</a>
-      <a href="http://" class="btn1">About Us</a>
-      <a href="http://" class="btn2">Login</a>
-      <a href="http://" class="btn3">Sponsor</a>
+      <a href="http://" class="btn1"> <Link to="/"> About Us </Link></a>
+      <a href="http://" class="btn2"><Link to="/login"> Login </Link></a>
+      <a href="http://" class="btn3"><Link to="/signup"> Sign up </Link></a>
 
     </div>
    </div>

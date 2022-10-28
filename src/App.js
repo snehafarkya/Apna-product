@@ -1,16 +1,17 @@
 import './App.css';
-import Contact from './components/Contact';
 import Home from './components/Home';
-import Opensource from './components/Opensource';
-import Team from './components/Team';
-
+import Login  from './components/Login';
+import Signup from './components/Signup'
+import {Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Opensource/>
-      <Team />
-      <Contact />
+      <Routes >
+        <Route path='/' element={<Home/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+
+      </Routes>
     </div>
   );
 }
