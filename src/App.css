@@ -530,16 +530,20 @@ font-size: 20px;
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: auto 2em;
+  /* margin: auto 2em; */
+  filter: drop-shadow(0px -12px 40px rgba(63, 172, 255, 0.22));
+  border-top-color: #E5E5E5;
 }
 
 .apna,
 .products,
 .community,
 .support {
-  font-weight: 800;
+  margin: 100px;
+  font-weight: 600;
   font-size: 24px;
-  line-height: 182.52%;
+  font-family: 'Inter';
+  /* line-height: 182.52%; */
   /* identical to box height, or 44px */
   text-align: center;
 
@@ -572,4 +576,8 @@ li {
   margin-bottom: 0.5em;
   font-weight: 800;
   font-size: 20px;
+}
+
+.copyright{
+  margin-top: 10px;
 }
