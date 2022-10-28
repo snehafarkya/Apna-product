@@ -12,7 +12,7 @@ export default function Form() {
       <input type="email" name="" id="email" placeholder='Enter your email' />
       </div>
       <div className="msg">
-      <textarea name="" id="msg" cols="30" rows="10" placeholder='Write message here...' ></textarea>
+      <textarea name="" id="msg" cols="23" rows="10" placeholder='Write message here...' ></textarea>
       </div>
       <button type="submit" id='sub'>Submit</button>
     </div>
