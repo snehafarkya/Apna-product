@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import heroimg from "../assets/heroimg.png"
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
           <div className="para">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, sint voluptatum magni numquam mollitia maiores provident ipsum nobis reiciendis quo.
           </div>
-          <button className='product-btn'>Products</button>
+          <Link to="/Product" ><button className='product-btn'> Products </button></Link>
         </div>
         <div className="h-image">
           <img src={heroimg} alt="" />
