@@ -10,7 +10,7 @@ export default function Hero() {
           <span>Manage your money </span> in the best possible way
           </div>
           <div className="para">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, sint voluptatum magni numquam mollitia maiores provident ipsum nobis reiciendis quo.
+              Make every Rupee Count With Budget Tracker. With highly tech enriched application, use voice assistant to record your transactions.
           </div>
           <Link to="/Product" ><button className='product-btn'> Products </button></Link>
         </div>

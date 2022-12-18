@@ -27,7 +27,7 @@ export default function Sneha() {
               <a href='mailto:snhafarkya@gmail.com' target={"_blank"} className="slinks"><img src={Email} alt="" /></a>
             </div>
             <div className="about-s">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, minima? Ducimus voluptatum voluptas esse consectetur excepturi dolor corrupti magnam libero.
+                Sneha is a lively person who belives in the process. She is passionate about her work and ready to shatter all the challanges coming her way. She is a tech enthusiast.
             </div>
           </div>
         </div>

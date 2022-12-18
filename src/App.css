@@ -316,11 +316,7 @@ text-fill-color: transparent;
   font-weight: 800;
 font-size: 20px;
 margin: 0 4em;
-/* identical to box height, or 44px */
-
-
 color: #333333;
-
 
 }
 .contact-flex{
@@ -340,6 +336,7 @@ height: 600px;
 display: flex;
 flex-direction: column;
 gap: 2em;
+margin-top: 1em;
 justify-content: center;
 align-items: center;
 }

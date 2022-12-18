@@ -6,10 +6,14 @@ export default function Opensource() {
       <p className="head">Proudly Community Driven</p>
       <p className="subhead">Backed by Open Source</p>
       <div className="os-text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis reiciendis impedit incidunt. Cupiditate sint similique amet. Vitae odit, maxime ex iusto neque error, odio ipsam, rerum eum alias debitis et ut maiores dolore quaerat doloribus similique minus fugit aliquid iure modi provident consequatur. Error a porro atque quos quas. Ex aut dolorem sed voluptatem nulla, dolores sunt odit perferendis magnam? Vel consectetur non maiores corrupti dignissimos similique ipsa. Earum officiis nulla doloribus reprehenderit ducimus natus dolore eum repellat molestiae blanditiis veniam ratione error cumque explicabo repudiandae voluptatibus eius illum, magni, nesciunt, harum mollitia id distinctio? Nemo mollitia neque consequuntur a.
+      Did you know that a large part of the software you use everyday was probably built with tools and technologies that are freely available for anyone to download, install, study, and modify?
       </div>
       <div className="os-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto dolorem cumque ipsum ad distinctio! Earum, cumque dolorum vero dolores, numquam aliquam voluptates aut quisquam necessitatibus unde aperiam consequatur ullam.
+      Software being open source means that not only is all of its source code available to download and view publicly, but its also available for anyone to modify and contribute back to. In fact, a lot of the success of open source software by definition is dependent on volunteers contributing changes and collaboratively making the software better.
+
+Contributing to someone else codebase might seem like a daunting proposition, but all you really need is a computer connected to the internet and a desire to dive into the deep end of an interesting problem you want to contribute your time to.
+      
+      Apna Product is an Open source project, aims at creating free, easy-to-use, reliable web applocation.
       </div>
     </div>
   )

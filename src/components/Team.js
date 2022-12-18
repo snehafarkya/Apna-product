@@ -6,9 +6,11 @@ export default function Team() {
   return (
     <div className='tbody'>
       <h3 className="thead">Founders</h3>
-      <p className="t-text">Debitis ad nobis laboriosam ab incidunt nihil dignissimos sed obcaecati magnam consequuntur, quibusdam, autem sapiente numquam accusantium dolor odio dolore repellendus officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint sit aspernatur culpa ipsa mollitia provident aut in odit eos corrupti.</p>
+      <p className="t-text">
+        A Stephen King said, "Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work." Here is our founding team✨
+        </p>
       <h3 className="team">Team</h3>
-      <p className="teamtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, asperiores?</p>
+      <p className="teamtag">Individuals make a team work, and teamwork makes individuals succeed.</p>
       <div className="t-flex">
        <Sneha/>
        <Jas />

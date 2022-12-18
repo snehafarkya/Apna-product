@@ -9,9 +9,9 @@ export default function Navbar() {
       <span>Apna</span> Product
     </div>
     <div class="navs">
-      <a href="http://" className='links'  >Products</a>
-      <a href="http://" className='links' >Open Source</a>
-      <a href="http://" className='links' >Sponsor</a>
+      <a href="" className='links'  ><Link to="/Product">Products</Link></a>
+      <a href="http://" className='links' ><Link to="/Opensource">Open Source</Link></a>
+      <a href="/" className='links' ><Link to="/Product">Sponsor</Link></a>
       <a href="http://" class="btn1 links"> <Link to="/"> About Us </Link></a>
       <a href="http://" class="btn2 links"><Link to="/login"> Login </Link></a>
       <a href="http://" class="btn3 links"><Link to="/signup"> Sign up </Link></a>
