@@ -27,7 +27,7 @@ export default function Sneha() {
               <a href='mailto:snhafarkya@gmail.com' target={"_blank"} className="slinks"><img src={Email} alt="" /></a>
             </div>
             <div className="about-s">
-                Sneha is a lively person who belives in the process. She is passionate about her work and ready to shatter all the challanges coming her way. She is a tech enthusiast.
+            Sneha is a lively person who believes in the process. She is passionate about her work and ready to shatter all the challenges coming her way. She is a tech enthusiast.
             </div>
           </div>
         </div>

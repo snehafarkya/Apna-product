@@ -12,9 +12,9 @@ export default function Navbar() {
       <a href="" className='links'  ><Link to="/Product">Products</Link></a>
       <a href="http://" className='links' ><Link to="/Opensource">Open Source</Link></a>
       <a href="/" className='links' ><Link to="/Product">Sponsor</Link></a>
-      <a href="http://" class="btn1 links"> <Link to="/"> About Us </Link></a>
-      <a href="http://" class="btn2 links"><Link to="/login"> Login </Link></a>
-      <a href="http://" class="btn3 links"><Link to="/signup"> Sign up </Link></a>
+      <a href="http://" class="btn1 "> <Link to="/"> About Us </Link></a>
+      <a href="http://" class="btn2 "><Link to="/login"> Login </Link></a>
+      <a href="http://" class="btn3 "><Link to="/signup"> Sign up </Link></a>
 
     </div>
    </div>

@@ -13,7 +13,7 @@ export default function Opensource() {
 
 Contributing to someone else codebase might seem like a daunting proposition, but all you really need is a computer connected to the internet and a desire to dive into the deep end of an interesting problem you want to contribute your time to.
       
-      Apna Product is an Open source project, aims at creating free, easy-to-use, reliable web applocation.
+      Apna Product is an Open source project, aims at creating free, easy-to-use, reliable web application.
       </div>
     </div>
   )

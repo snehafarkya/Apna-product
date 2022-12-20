@@ -1,4 +1,6 @@
 import React from 'react'
+import Github from '../components/Team/Github.png'
+import Email from '../components/Team/Email.png'
 export default function Footer() {
   return (
     <div className='footer'>
@@ -7,8 +9,8 @@ export default function Footer() {
         <span>Apna</span> Product
       </div>
       <h5 className='copyright'>Copyright © 2022 Apna Product</h5>
-      <a href="https://github.com/snehafarkya" target={"_blank"} className="slinks"> <img src="" alt="Github" /></a>
-      <a href='mailto:snhafarkya@gmail.com' target={"_blank"} className="slinks"><img src="" alt="Email" /></a>
+      <a href="https://github.com/snehafarkya" target={"_blank"} className="slinks"> <img src={Github} alt="Github" /></a>
+      <a href='mailto:snhafarkya@gmail.com' target={"_blank"} className="slinks"><img src={Email} alt="Email" /></a>
 
       </div>
       <div className="products">
